@@ -1,0 +1,187 @@
+/* indie-flower-regular - latin */
+@font-face {
+	font-family: "Indie Flower";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Indie Flower"), local("IndieFlower"), url("../fonts/indie-flower-v12-latin-regular.woff2") format("woff2"),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/indie-flower-v12-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+
+@font-face{ 
+		font-family: "Playfair Display"; 
+		font-size: 24px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: 700; 
+		src: local("Playfair Display"), local("PlayfairDisplay"), url("../fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf") format("ttf")
+}
+
+
+/* dekko-regular - latin */
+@font-face {
+	font-family: "Dekko";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Dekko"), url("../fonts/dekko-v7-latin-regular.woff2") format("woff2"),
+		/* Chrome 26+, Opera 23+, Firefox 39+ */ url("../fonts/dekko-v7-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+body {
+	font-family: "Playfair Display", normal;
+	background-color: #44a6b9;
+}
+
+h1,
+h2 {
+	font-family: "Playfair Display", normal;
+}
+h3 {
+	font-family: "Playfair Display", normal;
+}
+h4 {
+	font-family: "Playfair Display", normal;
+}
+
+h4 {
+	padding-top: 2rem;
+}
+
+
+h5 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size:medium;
+	color: #2e6d79;
+}
+h6 {
+	text-decoration: none;
+	color: #2e6d79;
+}
+
+.btn:focus,
+.btn:hover {
+	filter: brightness(120%);
+}
+
+.btn-lg {
+	background-color: #2e6d79;
+	margin: 2rem 0;
+}
+
+.dream {
+	background: url(../images/dream.jpg) center fixed;
+	background-size: cover;
+}
+
+.top-pane {
+	background: url(../images/sleep.jpg) center fixed;
+	background-size: cover;
+	height: calc(100vh - 56px);
+}
+
+.row { /* temporary, should be fixed in https://github.com/twbs/bootstrap/pull/31649/commits/1ee994700443fc65134de32a0be89ab1e49ad01e */
+	--bs-gutter-x: 2rem;
+}
+
+.paper-link {
+	text-decoration: none;
+	color: #2e6d79;
+}
+
+.app-link {
+	text-decoration: none;
+	color: lightgray;
+}
+
+.container {
+	max-width: 960px;
+}
+
+.article-entry {
+	align-items: center;
+}
+
+.article-entry p {
+	margin: 1rem 0;
+}
+
+.headshot {
+	border: 0.2rem solid #FFFFFF;
+	border-radius: 50%;
+	width: 8rem;
+	height: 8rem;
+	object-fit: cover;
+}
+
+
+.footer_text {
+	font-family:  Verdana, Geneva, Tahoma, sans-serif;
+	color: #E8F8F5;
+}
+
+.rcorners_image_desc {
+	border-radius: 25px;
+	border: 4px solid #EBF5FB;
+	padding: 10px;
+	/*width: 80%;
+	height: 150px;
+	*/
+	color:#2e6d79;
+	background-color: #EBF5FB;
+	/*margin-top: 20px;*/
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size:medium
+	/*margin-left:20px;margin-right:30px;*/
+  }
+
+  .section_title {
+	font-family: "Playfair Display", normal;
+	font-weight:bold;
+	font-size:larger;
+	color: #2e6d79;
+	padding: 0px;
+  }
+
+  .personas_title {
+	font-family:'Times New Roman', Times, serif;
+	color:lemonchiffon
+	/*margin-left:20px;margin-right:30px;*/
+  }
+
+  .rounded-corners {
+	border-radius: 40px;
+  }
+
+  .rcorners_personas {
+	border-radius: 25px;
+	border: 4px solid #73AD21;
+	padding: 20px;
+	color:dodgerblue;
+	background-color: rgb(215, 212, 185);
+	margin-top: 20px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size:medium
+	}
+
+.main_title {
+	font-family:'Playfair Display', normal;
+	font-weight: bold;
+	color:#212529;
+	padding: 20px;
+}
+
+  .storyboard_title {
+	font-family:'Times New Roman', Times, serif;
+	color:cornflowerblue
+	/*margin-left:20px;margin-right:30px;*/
+  }
+
+  .storyboard_persona {
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	color:black;
+	font-size: 80%;
+  }
+
+  .bg-section {
+    background-color: #E8F8F5!important;
+}
